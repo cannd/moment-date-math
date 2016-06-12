@@ -87,7 +87,7 @@ fullExpression = < datePart > + < splitter? > + < mathExpression >
   * A splitter, if exists, must be '||'
   * moment.parseMath(fullExpression, format?) is equivalent to moment(datePart, format?).calc(mathExpression), except for:
      - the [@] operator, see below
-     - if <datePart> is 'now' or '' (empty string), in which case it is equivalent to moment().calc(mathExpression)
+     - if < datePart > is 'now' or '' (empty string), in which case it is equivalent to moment().calc(mathExpression)
   
 A mathExpression is a string composed by consecutive dateMath operators, with optional spaces between them. There are 4 type of operators:
  - Set utcOffset operator: [@] or [Z] or [+XX:XX] or [-XX:XX], where each 'X' is a digit. It translates to the function call .utcOffset(<*whatever between the square brackets*>), with the exception of [@]
