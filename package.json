@@ -1,0 +1,28 @@
+{
+  "name": "moment-date-math",
+  "version": "0.1.2",
+  "description": "This is a plugin to the Moment.js library to support date-math expression as a string to the moment object",
+  "main": "moment-date-math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cannd/moment-date-math.git"
+  },
+  "keywords": [
+    "moment",
+    "date",
+    "math",
+    "expression"
+  ],
+  "author": "can81.nguyen@gmail.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "moment": "2.*"
+  },
+  "bugs": {
+    "url": "https://github.com/cannd/moment-date-math/issues"
+  },
+  "homepage": "https://github.com/cannd/moment-date-math#readme"
+}
